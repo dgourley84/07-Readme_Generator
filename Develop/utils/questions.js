@@ -3,7 +3,7 @@ const questions = [
     {
         type: 'input',
         message: "What is your GitHub username? (No @ needed)",
-        name: 'username',
+        name: 'userName',
         default: 'dallasg84',
         validate: function (answer) {
             if (answer.length < 1) {
@@ -13,9 +13,9 @@ const questions = [
         }
     },
     {
+        name: 'repo',
         type: 'input',
         message: "What is the name of your GitHub repo?",
-        name: 'repo',
         default: 'readme-generator',
         validate: function (answer) {
             if (answer.length < 1) {
@@ -25,9 +25,19 @@ const questions = [
         }
     },
     {
+    name: "URL",
+    type: "input",
+    message: "What is the URL of the live site?",
+    },
+    {
+    name: "GithubURL",
+    type: "input",
+    message: "What is the repository URL?",
+    },
+    {
+        name: 'title',
         type: 'input',
         message: "What is the title of your project?",
-        name: 'title',
         default: 'Project Title',
         validate: function (answer) {
             if (answer.length < 1) {
@@ -37,9 +47,9 @@ const questions = [
         }
     },
     {
+        name: 'description',
         type: 'input',
         message: "Write a description of your project.",
-        name: 'description',
         default: 'Project Description',
         validate: function (answer) {
             if (answer.length < 1) {
@@ -70,21 +80,6 @@ const questions = [
         name: 'usage'
     },
     {
-        type: 'input',
-        message: "If applicable, provide guidelines on how other developers can contribute to your project.",
-        name: 'contributing'
-    },
-    {
-        type: 'input',
-        message: "If applicable, provide any tests written for your application and provide examples on how to run them.",
-        name: 'tests'
-    },
-    {
-        type: "input",
-        message: "What is the URL of the live site?",
-        name: "URL",
-    },
-    {
         type: "list",
         name: "license",
         message: "Please select the license you used for this project.",
@@ -97,7 +92,17 @@ const questions = [
           "Apache",
           "Boost",
         ],
-      },
+    },
+    {
+        type: "input",
+        message: "Please enter any testing protocols you used for your project?",
+        name: "test",
+    },
+    {
+        type: "input",
+        name: "author",
+        message: "What is your name?",
+    },
 ];
 
 module.exports = {
