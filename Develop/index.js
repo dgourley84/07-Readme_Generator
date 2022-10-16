@@ -9,8 +9,7 @@ const generateMarkdown      = require('./utils/generateMarkdown.js');
 const licenseBadge          = require("./utils/licencBadges").licenseBadge;
 const questions             = require("./utils/questions").questions;
 
-//to enable use of async await
-const writeFileAsync = util.promisify(fs.writeFile);
+
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
@@ -22,6 +21,9 @@ function writeToFile(fileName, data) {
         console.log("Success! Your README.md file has been generated")
     });
 }
+
+//to enable use of async await
+const writeFileAsync = util.promisify(writeToFile);
 
 // TODO: Create a function to initialize app
 async function init() {

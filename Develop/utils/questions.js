@@ -25,6 +25,16 @@ const questions = [
         }
     },
     {
+    name: "URL",
+    type: "input",
+    message: "What is the URL of the live site?",
+    },
+    {
+    name: "GithubURL",
+    type: "input",
+    message: "What is the repository URL?",
+    },
+    {
         name: 'title',
         type: 'input',
         message: "What is the title of your project?",
@@ -68,16 +78,6 @@ const questions = [
         type: 'input',
         message: "Provide instructions and examples of your project in use for the Usage section.",
         name: 'usage'
-    },
-    {
-        type: 'input',
-        message: "If applicable, provide guidelines on how other developers can contribute to your project.",
-        name: 'contributing'
-    },
-    {
-        name: "URL",
-        type: "input",
-        message: "What is the URL of the live site?",
     },
     {
         type: "list",
