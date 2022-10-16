@@ -84,8 +84,8 @@ function generateMarkdown(data) {
 ---
 
 ## Questions:
-* GitHub Username: ${data.userName}
-* GitHub Email: ${data.userEmail}
+* GitHub Username: [${data.userName}](https://github.com/${data.userName})
+* GitHub Email: (${data.userEmail})
 
 
 `;
