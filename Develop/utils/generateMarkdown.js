@@ -14,16 +14,16 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `
   
-  # ${data.title}
+# ${data.title}
 
-    ${data.description}
+  ${data.description}
 
-    ${date.licenseBadge}
+  ${data.licenseBadge}
 
-    [A deployed version can be viewed here.](${data.URL})
-    [The repository can be viewed here.](${data.repo})
+  [A deployed version can be viewed here.](${data.URL})
+  [The repository can be viewed here.](${data.repo})
 
-    ---
+  ---
 ## Contents
 1. [About](#about)
     1. [User Story](#user%20story)
