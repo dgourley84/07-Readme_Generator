@@ -6,7 +6,7 @@ const util                  = require('util');
 
 //Connect modules to application
 const generateMarkdown      = require('./utils/generateMarkdown.js');
-const licenseBadge          = require("./utils/licenseBadge").licenseBadge;
+const licenseBadge          = require("./utils/licencBadges").licenseBadge;
 const questions             = require("./utils/questions").questions;
 
 //to enable use of asyn await
