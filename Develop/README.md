@@ -12,7 +12,7 @@
 
   Readme_Generator
 
-  [A deployed version can be viewed here.](N/A)
+  [A deployed version can be viewed here.](create-README.md))
 
   [The repository can be viewed here.](https://github.com/dgourley84/07-Readme_Generator)
 
