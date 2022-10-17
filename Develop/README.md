@@ -55,12 +55,15 @@
 
 ---
 ## Visuals:
+
   ![CommandLineInputs](./assets/images/ExampleInputs.png)
 
   ![ExampleOutputCLI](./assets/images/ExampleResponseOutPut.png)
 
   ![ExampleReadMe](./assets/images/ReadMeExpample.png)
 
+  Video of command line is available here - [Video can be viewed here](https://drive.google.com/file/d/1QY0w0XKmnYFV3k6a5c70VVaKtDML5P2s/view)
+  
 ---
 ## Installation:
 
