@@ -19,24 +19,25 @@ function generateMarkdown(data) {
 ## Contents
 1. [About](#about)
     1. [Usage](#usage)
-    2. [User Story](#user%20story)
-    3. [Acceptance criteria](#acceptance%20criteria)
+    2. [User Story](#user-story)
+    3. [Acceptance criteria](#acceptance-criteria)
     4. [Visuals](#visuals)
 2. [Installation](#installation)
 3. [License](#license)
 4. [Contributing](#contributing)
 5. [Tests](#tests)
-6. [Authors and acknowledgment](#authors%20and%20acknowledgment)
+6. [Authors and acknowledgment](#authors-and-acknowledgments)
 7. [Questions](#questions)
 ---
 ## About
 
   ${data.description}
 
-  ---
+---
 ## Usage
-
+  
   ${data.usage}
+
 ---
 ## User Story
   
@@ -77,7 +78,7 @@ function generateMarkdown(data) {
   ${data.test}
 
 ---
-## Authors and Acknowledgments
+## Authors & Acknowledgments
 
   ${data.author}
 
